@@ -1,4 +1,4 @@
-const url = 'http://localhost:3000/staff';
+const url = "https://staff-backend-two.vercel.app/staff";
 
 // UTILITY FUNCTIONS
 
@@ -138,5 +138,5 @@ function deleteData(url, id, card) {
 		method: 'DELETE',
 	})
 		.then((res) => res.json())
-		.then(() => card.remove());
+		.then(() => card.remove())
 }
